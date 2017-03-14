@@ -57,7 +57,7 @@
                                 <fontDescription key="fontDescription" name="EdoSZ" family="Edo SZ" pointSize="36"/>
                                 <state key="normal" title="Start Game"/>
                                 <connections>
-                                    <action selector="startGame:" destination="p1O-6A-2em" eventType="touchUpInside" id="nGo-ol-jKg"/>
+                                    <action selector="startGame:" destination="p1O-6A-2em" eventType="touchUpInside" id="yi7-KX-BR2"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Maracas1" translatesAutoresizingMaskIntoConstraints="NO" id="kBR-NZ-EQ5">
@@ -98,10 +98,10 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="kBR-NZ-EQ5" id="pc3-Wd-h9Q"/>
-                        <outlet property="scoreLabel" destination="P8c-kB-Mr5" id="zwA-zX-1PT"/>
-                        <outlet property="startGameButton" destination="2sR-S5-fhc" id="l6o-8G-apY"/>
-                        <outlet property="timerLabel" destination="Qmi-UB-uNV" id="c8R-zl-c1C"/>
+                        <outlet property="imageView" destination="kBR-NZ-EQ5" id="TRx-ap-pox"/>
+                        <outlet property="scoreLabel" destination="P8c-kB-Mr5" id="RoQ-Ll-adb"/>
+                        <outlet property="startGameButton" destination="2sR-S5-fhc" id="8rQ-Y3-OSF"/>
+                        <outlet property="timerLabel" destination="Qmi-UB-uNV" id="efu-mA-GSf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xCf-Vg-efJ" sceneMemberID="firstResponder"/>
