@@ -90,6 +90,15 @@
             
             self.scoreLabel.text = [NSString stringWithFormat:@"%i", scoreInt];
             
+            imageInt += 1;
+            
+            if (imageInt == 5) {
+                
+                imageInt = 1;
+            }
+            
+            NSString *image = [NSString stringWithFormat:@"Maracas%i.png", imageInt];
+            self.imageView.image = [UIImage imageNamed:image];
         }
     }
 }
